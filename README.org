@@ -1,0 +1,28 @@
+#+title: Caelum
+#+subtitle: Caelum is a text based Cee-lo game
+#+export_file_name: index
+#+setupfile: ~/.emacs.d/org-templates/projects.org
+
+| Website         | https://andinus.nand.sh/caelum             |
+| Source          | https://git.tilde.institute/andinus/caelum |
+| GitHub (mirror) | https://github.com/andinus/caelum          |
+
+* Documentation
+
+** Implementation
+
+Caelum is an implementation of [[https://en.wikipedia.org/wik/Cee-lo#Cee-lo_without_a_bank_(winner_take_all)][Cee-lo without a bank]]. The bet amount is
+set to be the average of whatever each player decides.
+
+** Options
+
+*** players
+
+Number of players. Default is 2, should be an integer greater than or
+equal to 2.
+
+* News
+
+** v0.1.0 - 2021-04-27
+
+Initial implementation.
