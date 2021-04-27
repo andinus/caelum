@@ -8,14 +8,10 @@
     "perl" : "6.d",
     "provides" : {
         "Caelum::CLI" : "lib/Caelum/CLI.rakumod",
-        "Caelum::Player" : "lib/Caelum/Player.rakumod",
+        "Caelum::Player" : "lib/Caelum/Player.rakumod"
     },
     "depends" : [
         "Terminal::Table:auth<github:araraloren>"
-    ],
-    "build-depends" : [ ],
-    "test-depends" : [ ],
-    "resources" : [
     ],
     "tags": [
         "Caelum", "Cee-lo", "Chinchirorin", "Chinchiro"
