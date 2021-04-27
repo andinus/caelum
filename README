@@ -9,6 +9,7 @@
 Table of Contents
 ─────────────────
 
+Demo
 Installation
 Documentation
 News
@@ -19,6 +20,19 @@ News
  Source           <https://git.tilde.institute/andinus/caelum>
  GitHub (mirror)  <https://github.com/andinus/caelum>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Demo
+════
+
+  This was recorded with `asciinema'.
+
+  [https://asciinema.org/a/410291.png]
+
+  ⁃ Caelum v0.1.1: <https://asciinema.org/a/410291>
+
+
+[https://asciinema.org/a/410291.png] <https://asciinema.org/a/410291>
 
 
 Installation
@@ -102,6 +116,12 @@ players
 
 News
 ════
+
+v0.1.1 - 2021-04-27
+───────────────────
+
+  ⁃ Fixed bug in winning logic.
+
 
 v0.1.0 - 2021-04-27
 ───────────────────

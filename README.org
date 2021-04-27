@@ -7,6 +7,14 @@
 | Source          | https://git.tilde.institute/andinus/caelum |
 | GitHub (mirror) | https://github.com/andinus/caelum          |
 
+* Demo
+
+This was recorded with ~asciinema~.
+
+[[https://asciinema.org/a/410291][https://asciinema.org/a/410291.png]]
+
++ Caelum v0.1.1: https://asciinema.org/a/410291
+
 * Installation
 
 Caelum is released to CPAN, you can get it from there or install it from
@@ -62,6 +70,10 @@ Number of players. Default is 2, should be an integer greater than or
 equal to 2.
 
 * News
+
+** v0.1.1 - 2021-04-27
+
++ Fixed bug in winning logic.
 
 ** v0.1.0 - 2021-04-27
 
