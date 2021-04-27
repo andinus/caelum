@@ -36,7 +36,7 @@ multi sub MAIN(
             # Reset points.
             $player.points = 0;
 
-            unless $player.wallet > $bet {
+            unless $player.wallet >= $bet {
                 say "==> Cannot place bet. All amount goes to pot.";
                 $pot += $player.wallet;
                 $player.wallet = 0;
@@ -81,7 +81,7 @@ multi sub MAIN(
             }
         }
 
-        with @players.sort(*.wallet)[0] -> $player {
+        with @players.sort(*.wallet).reverse[0] -> $player {
             say "{$player.name} wins $pot!";
             $player.wallet += $pot;
         }
