@@ -81,7 +81,7 @@ multi sub MAIN(
             }
         }
 
-        with @players.sort(*.wallet).reverse[0] -> $player {
+        with @players.sort(*.points).reverse[0] -> $player {
             say "{$player.name} wins $pot!";
             $player.wallet += $pot;
         }
