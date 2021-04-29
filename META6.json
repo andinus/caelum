@@ -1,6 +1,6 @@
 {
     "name" : "caelum",
-    "auth" : "github:andinus",
+    "auth" : "zef:andinus",
     "version" : "0.1.1",
     "description" : "Caelum is a text based Cee-lo game",
     "authors" : [ "Andinus <andinus@nand.sh>" ],
