@@ -59,7 +59,7 @@ zef install .
 
 ** Implementation
 
-Caelum is an implementation of [[https://en.wikipedia.org/wik/Cee-lo#Cee-lo_without_a_bank_(winner_take_all)][Cee-lo without a bank]]. The bet amount is
+Caelum is an implementation of [[https://en.wikipedia.org/wiki/Cee-lo#Cee-lo_without_a_bank_(winner_take_all)][Cee-lo without a bank]]. The bet amount is
 set to be the average of whatever each player decides.
 
 ** Options
